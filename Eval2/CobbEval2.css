@@ -13,10 +13,6 @@ font-weight: bold;}
 h2{
 font-weight: bold;}
 
-*/Applies to all <h3/> headings, to put them in italics.*/
-h3{
-font-style: italics;}
-
 /*When links are clicked on, they turn a darker shade. When links are
 hovered over, they turn lighter and are underlined.*/
 a:link {
