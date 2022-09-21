@@ -11,15 +11,22 @@ the rest of the document.*/
 h1{
 font-weight: bold;}
 h2{
-font-weight: bold;}
-
+font-weight: bold;
+clear:both;/*Clear bring the item rendered below any elements they would react to*/}
+/* Link Stylings */
 /*When links are clicked on, they turn a darker shade. When links are
 hovered over, they turn lighter and are underlined.*/
-a:link {
-  color: blue;
+a{
+  color: Blue;
   text-decoration: none;}
 a:visited {
-  color: dark blue}
+  color: DarkBlue}
 a:hover {
-  color: light blue;
+  color: LightBlue;
   text-decoration: underlined;}
+/* Image Display */
+img{
+  float:left; /*Added float for text wrapping */
+  height:200px;
+  width:650px;
+}
