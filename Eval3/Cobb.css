@@ -1,0 +1,38 @@
+/*Applies to the entire body of the HTML document (except where overridden by
+more specific selectors).*/
+body{
+font-family: Arial, Helvetica, sans-serif;
+background color: #DAF7A6;
+color: #492FC6;
+font-size: 14px;
+text-align: left;}
+
+/*All <h1/> and <h2/> headings are to be in bold, so that they stand out from
+the rest of the document.*/
+h1{
+font-weight: bold;}
+h2{
+font-weight: bold;}
+
+/*<h4/> headings are to be in italics to they stand apart from rest of text in
+paragraph.*/
+h4{
+  font-weight: italics;}
+
+/*When links are clicked on, they turn a darker shade. When links are
+hovered over, they turn lighter and are underlined.*/
+a:link {
+  color: blue;
+  text-decoration: none;}
+a:visited {
+  color: dark blue}
+a:hover {
+  color: light blue;
+  text-decoration: underlined;}
+
+  /* Image Displays */
+  img{
+    float:left; /*Added float for text wrapping */
+    height:200px;
+    width:650px;
+  }
